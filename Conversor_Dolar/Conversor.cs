@@ -14,7 +14,7 @@ namespace Conversor_Dolar
         public static double Converter_Dolar(double cotacacao_dolar, double quant_dolar)
             {
             double ValorFinal = cotacacao_dolar * quant_dolar;        
-            return ValorFinal + ValorFinal *IOF/100.0;
+            return ValorFinal + ValorFinal * IOF/100.0;
             }
 
         }
